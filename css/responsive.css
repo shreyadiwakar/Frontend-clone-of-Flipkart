@@ -1,0 +1,105 @@
+/* Responsive styles for Flipkart Clone */
+
+@media screen and (max-width: 1024px) {
+    .search input {
+        width: 250px;
+    }
+    .box2 {
+        flex-direction: column;
+        height: auto;
+    }
+    .smallboxes {
+        width: 100%;
+        justify-content: center;
+    }
+    .bigbox {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .bigbox img {
+        max-width: 90%;
+        height: auto;
+    }
+    .result {
+        width: 50%;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        position: relative;
+    }
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 0;
+    }
+    nav ul li {
+        min-width: auto;
+    }
+    .search {
+        margin: 10px 0;
+        justify-content: center;
+    }
+    .search input {
+        width: 75%;
+    }
+    .slider {
+        margin-top: 15px;
+    }
+    .container2 {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .filters {
+        width: 95%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .items {
+        width: 95%;
+        margin: 10px auto;
+    }
+    .result {
+        width: 100%;
+    }
+    .login {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+    }
+    .login1, .login2 {
+        width: 100%;
+    }
+    .login1 {
+        padding: 20px;
+        min-height: 180px;
+    }
+    .login2 {
+        padding: 25px;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer hr {
+        display: none;
+    }
+    .footer1, .footer2, .footer3 {
+        padding: 15px;
+    }
+    footer {
+        height: auto;
+    }
+}
